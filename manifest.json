@@ -10,11 +10,6 @@
             "src": "/files/logo.png",
             "sizes": "192x192",
             "type": "image/png"
-        },
-        {
-            "src": "/files/logo.png",
-            "sizes": "256x256",
-            "type": "image/png"
         }
-    ],
+    ]
 }
