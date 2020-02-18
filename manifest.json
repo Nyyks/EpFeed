@@ -1,13 +1,12 @@
 {
     "name": "Ep-Feed",
-    "short_name": "EpFeed",
+    "short_name": "Ep-Feed",
     "start_url": "https://janik313.github.io/EpFeed",
     "display": "standalone",
     "background_color": "#fff",
-    "description": "A simple App.",
     "icons": [
         {
-            "src": "logo.png",
+            "src": "files/logo.png",
             "sizes": "300x300",
             "type": "image/png"
         }
