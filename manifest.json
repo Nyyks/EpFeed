@@ -7,7 +7,7 @@
     "description": "A simple App.",
     "icons": [
         {
-            "src": "/EpFeed/files/logo.png",
+            "src": "logo.png",
             "sizes": "300x300",
             "type": "image/png"
         }
