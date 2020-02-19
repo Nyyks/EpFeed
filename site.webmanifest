@@ -1,9 +1,9 @@
 {
     "name": "Ep-Feed",
     "short_name": "Ep-Feed",
-    "start_url": "https://janik313.github.io/EpFeed/",
-    "background_color": "#ffffff",
-    "display": "standalone"
+    "start_url": "https://janik313.github.io/EpFeed",
+    "display": "standalone",
+    "background_color": "#fff",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
