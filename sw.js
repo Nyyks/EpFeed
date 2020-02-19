@@ -1,9 +1,4 @@
 const cacheName = 'EpFeed';
-const staticAssets = [
-  './',
-  './index.html',
-  './index.js',
-];
 
 self.addEventListener('install', async e => {
   const cache = await caches.open(cacheName);
