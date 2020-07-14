@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<title>Facebook</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="apple-touch-icon" sizes="180x180" href="/EpFeed/files/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/EpFeed/files/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/EpFeed/files/favicon-16x16.png">
+<link rel="manifest" href="/EpFeed/files/site.webmanifest">
+<link rel="mask-icon" href="/EpFeed/files/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/EpFeed/files/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/EpFeed/files/browserconfig.xml">
+<meta name="theme-color" content="#000000">
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey">
+<!-- Top container -->
+<div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
+  <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</button>
+  <img src="files/logo.png" class="w3-bar-item w3-right" style="width: 60px;">
+</div>
+
+<head>
+  <link rel="apple-touch-icon" sizes="180x180" href="/EpFeed/files/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/EpFeed/files/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/EpFeed/files/favicon-16x16.png">
+  <link rel="manifest" href="/EpFeed/files/site.webmanifest">
+  <link rel="mask-icon" href="/EpFeed/files/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/EpFeed/files/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/EpFeed/files/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-157295670-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-157295670-1');
+</script>
+
+</head>
+
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container w3-row">
+    <div class="w3-col s4">
+    
+    </div>
+    <div class="w3-col s8 w3-bar">
+      <span><strong>Ep-Feed</strong></span><br>
+    </div>
+  </div>
+  <hr>
+  <div class="w3-container">
+    
+  </div>
+  <div class="w3-bar-block">
+    <a href="index.html" class="w3-bar-item w3-button w3-padding">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding  w3-gray">Wartezeiten</a>
+    <a href="Parkplan.html" class="w3-bar-item w3-button w3-padding">Parkplan</a>
+    <a href="Radio.html" class="w3-bar-item w3-button w3-padding">EP-Radio</a>
+    <a href="Twitter.html" class="w3-bar-item w3-button w3-padding">Twitter</a>
+    <a href="YouTube.html" class="w3-bar-item w3-button w3-padding">Youtube</a>
+    <a href="Instagram.html" class="w3-bar-item w3-button w3-padding">Instagram</a>
+    <a href="About.html" class="w3-bar-item w3-button w3-padding">About</a>
+  </div>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px;margin-top:43px;">
+
+  <!-- Header -->
+  <header class="w3-container" style="padding-top:22px">
+    <h3>Facebook</h3>
+  </header>
+
+  <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v7.0" nonce="rrfiu9ag"></script>
+
+    <div class="fb-page" data-href="https://www.facebook.com/Europapark" data-tabs="timeline" data-width="" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/Europapark" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Europapark">Europa-Park</a></blockquote></div>
+  </body>
+
+  <!-- End page content -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+
+</script>
+
+</body>
+</html>
